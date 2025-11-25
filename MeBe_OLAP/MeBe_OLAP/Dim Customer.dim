@@ -1,0 +1,282 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="93276000-b2a9-4f09-b0c5-2b5727387b3a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Customer</ID>
+  <Name>Dim Customer</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4234" scrolltop="-6707" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11509" y="16986" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Customer" left="99" top="53" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Customer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4234</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6707</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>99</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>53</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="126">
+            <Shape Id="Customer ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Customer ID" />
+                <Attribute Id="Gioi Tinh" />
+                <Attribute Id="Ngay Sinh Con" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Khu Vuc" Expanded="false">
+              <Attributes>
+                <Attribute Id="Khu Vuc" />
+              </Attributes>
+              <Position x="182" y="20" />
+            </Shape>
+            <Shape Id="Dia Chi" Expanded="false">
+              <Attributes>
+                <Attribute Id="Dia Chi" />
+              </Attributes>
+              <Position x="345" y="20" />
+            </Shape>
+            <Shape Id="Ho Ten" Expanded="false">
+              <Attributes>
+                <Attribute Id="Ho Ten" />
+              </Attributes>
+              <Position x="507" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cf64567b-6751-4ce4-8d75-f5b35db4295b">
+    <DataSourceViewID>DW Me Be</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="856b6ce8-e94d-43ac-95d5-c7f4c2cab08d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="de80131a-87a1-46f7-831a-4fc8ddfdb2d3">
+      <ID>Customer ID</ID>
+      <Name>Customer ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e1913b05-ac53-4726-8a6a-288ab892d103">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ea70e78-6b52-4061-afc6-a1c976275b56">
+            <TableID>dbo_Dim_Customer</TableID>
+            <ColumnID>CustomerID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7c4e3a11-9c5f-474a-8469-66fa7ac3d8e9">
+          <AttributeID>Gioi Tinh</AttributeID>
+          <Name>Gioi Tinh</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d3557879-344f-41b8-a90c-f5141cfff172">
+          <AttributeID>Ngay Sinh Con</AttributeID>
+          <Name>Ngay Sinh Con</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a167ff5e-2488-4ca8-a672-5df58e98469d">
+          <AttributeID>Khu Vuc</AttributeID>
+          <Name>Khu Vuc</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="808f7b4b-86d3-4f3c-b298-ee2e3c2377e3">
+      <ID>Ho Ten</ID>
+      <Name>Ho Ten</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3c0bce5-8ffe-4c6e-9b22-e4d7c0b6587c">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5757abf3-6c44-4e52-9b60-266de9f5fa5c">
+            <TableID>dbo_Dim_Customer</TableID>
+            <ColumnID>HoTen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da2743dc-b6cc-4fdd-bb3c-ce42f1510ac8">
+      <ID>Gioi Tinh</ID>
+      <Name>Gioi Tinh</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1e6ff27f-9e81-4569-9104-433cf9fa2970">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f571eaea-c635-4ee3-860d-4fd3ead6bf2a">
+            <TableID>dbo_Dim_Customer</TableID>
+            <ColumnID>GioiTinh</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="70c446cd-de4d-4a0a-80a6-8b938f132988">
+      <ID>Ngay Sinh Con</ID>
+      <Name>Ngay Sinh Con</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eeacd8cf-1c35-44f9-867c-f9513d94d4a5">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="50bd9382-3262-447b-a657-64dee77fcce0">
+            <TableID>dbo_Dim_Customer</TableID>
+            <ColumnID>NgaySinhCon</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="46e8930d-c7f2-43d7-937e-62a81b9a7d6b">
+      <ID>Dia Chi</ID>
+      <Name>Dia Chi</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6854fe1c-a137-42de-b570-9e6d6d00cdcd">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d6c5e73-cc01-404e-946e-7b047c01b806">
+            <TableID>dbo_Dim_Customer</TableID>
+            <ColumnID>DiaChi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ddef06fe-385b-40d6-a7fb-5dd8d6db0594">
+          <AttributeID>Ho Ten</AttributeID>
+          <Name>Ho Ten</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2e7d77e2-bb0d-417c-95b6-500802702d40">
+      <ID>Khu Vuc</ID>
+      <Name>Khu Vuc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="995dde1d-bb5f-4295-89c2-b07124cb6541">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7485a0b-3a6f-448b-9cd9-3bcde97f49db">
+            <TableID>dbo_Dim_Customer</TableID>
+            <ColumnID>CustomerID</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1ed1be57-357f-4d33-8ed0-9b8250b85f7e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4e7aaa62-b588-4247-93b5-4f6ad42a6e03">
+            <TableID>dbo_Dim_Customer</TableID>
+            <ColumnID>KhuVuc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3f7e99b9-c5de-4dfa-8eb2-7a9262add478">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="41d71b5c-df21-4607-9ce1-1c4f6f27d1bc">
+          <TableID>dbo_Dim_Customer</TableID>
+          <ColumnID>KhuVuc</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bb3e74c7-5cea-4ce6-8940-e3c2b5feb4fc">
+          <AttributeID>Dia Chi</AttributeID>
+          <Name>Dia Chi</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="8aabf71b-7d1c-4019-a483-669d162a90e1">
+      <ID>Hierarchy 1</ID>
+      <Name>Customer Geography</Name>
+      <Levels>
+        <Level dwd:design-time-name="6e9b6cef-3e38-4479-add8-fc813a43a1e8">
+          <ID>Khu Vuc</ID>
+          <Name>Khu Vuc</Name>
+          <SourceAttributeID>Khu Vuc</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="abb887ec-24ca-4b60-ad86-13c55b5f4ad8">
+          <ID>Dia Chi</ID>
+          <Name>Dia Chi</Name>
+          <SourceAttributeID>Dia Chi</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1db9af35-4b79-4527-8570-900e12920469">
+          <ID>Ho Ten</ID>
+          <Name>Ho Ten</Name>
+          <SourceAttributeID>Ho Ten</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
