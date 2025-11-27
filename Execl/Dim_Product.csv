@@ -1,0 +1,16 @@
+ProductID,TenSanPham,LoaiSanPham,DonGia,ThuongHieu
+1,Sua Giai Nang,Thuc pham,45000,Pigeon
+2,Sua Mat Na,Thuc pham,48000,Vinamilk
+3,Bim Tuan,Thuc pham,50000,Merries
+4,Bot An Dam,Thuc pham,47000,Vinamilk
+5,Sua Bot Cho Be,Sua bot,65000,Merries
+6,Chao Yomilk,Thuc pham,46000,Abbott
+7,Nuoc Ep Trai Cay,Thuc pham,44000,Abbott
+8,Yaourt Cho Be,Thuc pham,45000,Vinamilk
+9,Binh Sua Thong Minh,Binh sua,70000,Abbott
+10,Binh Sua Chinh Hang,Binh sua,72000,Vinamilk
+11,Bim Dan Dan,Bim,40000,Pigeon
+12,Bim Sieu Mem,Bim,42000,Vinamilk
+13,Binh Sua An Toan,Binh sua,71000,Abbott
+14,Binh Sua Tu Nhien,Binh sua,69000,Merries
+15,Chao Lua Mi Thit,Thuc pham,47000,Merries
