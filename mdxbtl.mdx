@@ -1,0 +1,51 @@
+﻿//Doanh thu theo sản phẩm
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Product].[Ten San Pham].MEMBERS ON ROWS
+FROM [DW Me Be];
+
+//Doanh thu theo năm
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Date].[Nam].MEMBERS ON ROWS
+FROM [DW Me Be];
+
+//Doanh thu theo quý
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Date].[Quy].MEMBERS ON ROWS
+FROM [DW Me Be]
+WHERE ([Dim Date].[Nam].&[2025]);
+
+//Top 5 sản phẩm bán chạy nhất
+SELECT TOPCOUNT([Dim Product].[Ten San Pham].MEMBERS, 5, [Measures].[Doanh Thu]) ON ROWS,
+       [Measures].[Doanh Thu] ON COLUMNS
+FROM [DW Me Be];
+
+//Doanh thu theo cửa hàng
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Store].[Ten Cua Hang].MEMBERS ON ROWS
+FROM [DW Me Be];
+
+//Doanh thu theo khu vực
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Store].[KhuVuc].MEMBERS ON ROWS
+FROM [DW Me Be];
+
+//Doanh thu theo loại sản phẩm
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Product].[Loai San Pham].MEMBERS ON ROWS
+FROM [DW Me Be];
+
+//Doanh thu theo năm 2024
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Date].[Thang].MEMBERS ON ROWS
+FROM [DW Me Be]
+WHERE ([Dim Date].[Nam].&[2024]);
+
+//Số lượng mua theo sản phẩm
+SELECT [Measures].[So Luong Mua] ON COLUMNS,
+       [Dim Product].[Ten San Pham].MEMBERS ON ROWS
+FROM [DW Me Be];
+
+//Doanh thu theo khách hàng
+SELECT [Measures].[Doanh Thu] ON COLUMNS,
+       [Dim Customer].[HoTen].MEMBERS ON ROWS
+FROM [DW Me Be];

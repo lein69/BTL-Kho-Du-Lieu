@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SIU_SQLEXPRESS.DW_MeBe"
+  DTS:DTSID="{34507889-A8D0-4576-938A-7045B52879D8}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=SIU\SQLEXPRESS;Initial Catalog=DW_MeBe;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-MeBe_ETL-{34507889-A8D0-4576-938A-7045B52879D8}SIU\SQLEXPRESS.DW_MeBe;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

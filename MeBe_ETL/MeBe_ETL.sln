@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "MeBe_ETL", "MeBe_ETL\MeBe_ETL.dtproj", "{099CAF1B-1F51-6D29-085F-D5F0881DCEE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{099CAF1B-1F51-6D29-085F-D5F0881DCEE7}.Development|Default.ActiveCfg = Development
+		{099CAF1B-1F51-6D29-085F-D5F0881DCEE7}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D21E428-C1C0-4409-838A-B559BB0C510A}
+	EndGlobalSection
+EndGlobal
